@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet" />
     <title>Birthday Prob</title>
 </head>
 <body>
-    <h1>
-        Is your birthday Lucky
-    </h1>
-    <div id="input-feilds">
-        <label>
-            Enter your birthday
-            <input id="birthday" type="date">
-        </label>
-        <label>
-            Enter your luck Number
-            <input id="lnum" type="number">
-        </label>
-        <button id="submit-btn">Submit Button</button>
-    </div>
-    <div id="output-area"></div>
+    <div class="main-container">
+        <h1>
+            Is your birthday Lucky
+        </h1>
 
-    <script src="luckyday.js"></script>
-    
+        <div id="input-feilds">
+            <label id="label-feilds">
+                Enter your birthday
+                <input id="birthday" type="date">
+            </label>
+            <label id="label-feilds">
+                Enter your luck Number
+                <input id="lnum" type="number">
+            </label>
+            <button id="submit-btn">Submit Button</button>
+        </div>
+        <div id="output-area"></div>
+
+        <script src="luckyday.js"></script>
+    </div>
 </body>
 </html>
