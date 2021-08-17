@@ -34,10 +34,10 @@ function calculateLuck(){
         var sumOfD = calculateSumofDigit(bdigits);
 
         if(sumOfD%Number(lnum)==0){
-            outpurEl.innerHTML = "<h1>"+"Yas! YourBirthday Is Lucky" +"</h1>"
+            outpurEl.innerHTML = "<h1>"+"Yas! 😍 YourBirthday Is Lucky" +"</h1>"
         }
         else{
-            outpurEl.innerHTML = "<h2>"+"Nay! YourBirthday Is Not Lucky" +"</h2>"
+            outpurEl.innerHTML = "<h2>"+"Nay! 😓 Your Birthday Is Not Lucky" +"</h2>"
         }
     }
     else{
